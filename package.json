@@ -1,0 +1,16 @@
+{
+  "name": "template-node-js",
+  "version": "1.0.0",
+  "scripts": {
+    "compiler": "tsc --watch",
+    "serve": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  }
+}
